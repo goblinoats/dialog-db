@@ -35,6 +35,9 @@ pub use entity::*;
 mod value;
 pub use value::*;
 
+mod history;
+pub use history::*;
+
 mod part;
 pub use part::*;
 
