@@ -301,6 +301,10 @@ pub enum CommitError {
     /// Publishing the new revision failed.
     #[error("Failed to publish new revision: {0}")]
     Publish(#[from] PublishError),
+
+    /// A cell resolve during commit failed.
+    #[error("Failed to resolve during commit: {0}")]
+    Resolve(#[from] ResolveError),
 }
 
 /// Errors specific to a pull operation.
