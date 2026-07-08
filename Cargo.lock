@@ -1244,6 +1244,7 @@ dependencies = [
  "blake3",
  "criterion",
  "dialog-artifacts",
+ "dialog-automerge",
  "dialog-capability",
  "dialog-common",
  "dialog-effects",
